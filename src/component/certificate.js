@@ -97,7 +97,7 @@ function Certificate(contract, account) {
       <h1>Verify Web3 University Certificate</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="identityNumber">
-          <i className="fas fa-id-card"></i> Identity Number:</label>
+          <i className="fas fa-id-card"></i> Cert Reference Number:</label>
         <input
           type="text"
           id="identityNumber"
@@ -116,7 +116,7 @@ function Certificate(contract, account) {
             <div class="project-info-box">
               <h1>Certificate Details</h1>
               <p><b>Name:</b> {cert.name}</p>
-              <p><b>ID:</b> {cert.id}</p>
+              <p><b>Reference No:</b> {cert.id}</p>
                 <p><b>Award Date:</b> {cert.awardDate}</p>
                 <p><b>Programme:</b> {cert.programme}</p>
             </div>
