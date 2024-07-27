@@ -13,14 +13,15 @@ async function main() {
     const prog = "Degree in Software Engineering";
     const date = "22 May 2012"; 
   
-  const tx = await myContract.connect(owner).mint(tokenURI, name, identityNumber, date, prog);
+  //const tx = await myContract.connect(owner).mint(tokenURI, name, identityNumber, date, prog);
 
 
     const totalSupply = await myContract.totalSupply();
-  
+    const cert = await myContract.getCertificateURI("W00120120522");
   console.log("Total Supply:", totalSupply.toString());
+  console.log("Total Supply:", cert.toString());
 
-    console.log("Minted Reference Number:", identityNumber);
+    //console.log("Minted Reference Number:", identityNumber);
   }
   
   main()

@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
 
 
-  const contractAddress = process.env.CONTRACT;
+  const contractAddress = process.env.REACT_APP_CONTRACT;
   const [contract, setContract] = useState(null);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ function App() {
         // Network ID for Sepolia
         //await switchToSepolia();
         //}
-        const providerUrl = process.env.PROVIDER_URL;
+        const providerUrl = process.env.REACT_APP_PROVIDER_URL;
 
 
         // user enables the app to connect to MetaMask

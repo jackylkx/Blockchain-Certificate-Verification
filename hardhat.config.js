@@ -10,7 +10,7 @@ module.exports = {
     },
     optimism_sepolia: {
       url: `https://sepolia.optimism.io`,
-      accounts: [process.env.ACCOUNT_PRIVATE_KEY]
+      accounts: [process.env.REACT_APP_ACCOUNT_PRIVATE_KEY]
     },
   },
 };
