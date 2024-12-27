@@ -1,3 +1,7 @@
+# Blockchain Certificate Verification
+
+Allow university to mint softcopy certificate to IPFS and blockchain
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
